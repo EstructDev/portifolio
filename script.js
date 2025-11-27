@@ -60,12 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflow = "auto";
         }
     }
-
-    // Dynamic Title Effect (Optional fun touch)
-    let docTitle = document.title;
-    window.addEventListener("blur", () => {
-        document.title = "Volte para o código 👨‍💻";
-    });
+    
     window.addEventListener("focus", () => {
         document.title = docTitle;
     });
